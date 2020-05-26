@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Product CRUD test","This test will create a new product","SUCCESS","2020-05-24T14:09:28.216+01:00[Europe/London]","0.0","2.6"
+"Product CRUD test","Verify if the product was added to the application","ERROR","2020-05-24T14:09:30.834+01:00[Europe/London]","0.0","0.4"

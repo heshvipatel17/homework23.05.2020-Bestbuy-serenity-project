@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.bestbuy.crud.ProductCRUDTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.594 sec <<< FAILURE! - in com.bestbuy.crud.ProductCRUDTest
+test002(com.bestbuy.crud.ProductCRUDTest)  Time elapsed: 0.395 sec  <<< ERROR!
+groovy.lang.MissingPropertyException: No such property: id for class: java.util.HashMap$Node
+Possible solutions: key
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at Script1.run(Script1.groovy:1)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:585)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:623)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:594)
+	at io.restassured.internal.path.json.JSONAssertion.eval(JSONAssertion.groovy:80)
+	at io.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:46)
+	at io.restassured.internal.path.json.JSONAssertion.getResult(JSONAssertion.groovy:28)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.path(RestAssuredResponseOptionsGroovyImpl.groovy:398)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.path(RestAssuredResponseOptionsImpl.java:200)
+	at com.bestbuy.steps.ProductSteps.getProductInfoByName(ProductSteps.java:54)
+	at com.bestbuy.crud.ProductCRUDTest.test002(ProductCRUDTest.java:43)
+
